@@ -59,6 +59,18 @@ export default {
                     DEFAULT: 'hsl(var(--card))',
                     foreground: 'hsl(var(--card-foreground))'
                 },
+                error: {
+                    DEFAULT: 'hsl(var(--error))',
+                    foreground: 'hsl(var(--error-foreground))'
+                },
+                tone: {
+                    DEFAULT: 'hsl(var(--tone))',
+                    foreground: 'hsl(var(--tone-foreground))'
+                },
+                improvement: {
+                    DEFAULT: 'hsl(var(--improvement))',
+                    foreground: 'hsl(var(--improvement-foreground))'
+                },
                 education: {
                     blue: 'hsl(var(--education-blue))',
                     green: 'hsl(var(--education-green))'
