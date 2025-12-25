@@ -1,12 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-
-import routes from './routes';
-
+import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 // import Header from '@/components/common/Header';
 // import { AuthProvider } from '@/contexts/AuthContext';
 // import { RouteGuard } from '@/components/common/RouteGuard';
 import { Toaster } from '@/components/ui/toaster';
+import routes from './routes';
 
 const App: React.FC = () => {
   return (

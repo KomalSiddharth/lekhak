@@ -6,101 +6,128 @@
 LEKHAK
 
 ### 1.2 Website Description
-A premium AI writing assistant designed for Indian languages and Hinglish, offering Grammarly-like intelligent writing support with a focus on utility, clarity, and speed.
-
+A premium AI writing assistant designed for Indian languages and Hinglish, offering Grammarly-like intelligent writing support with a focus on utility, clarity, and speed.\n
 ## 2. Core Features
 
 ### 2.1 Live Writing Editor
-- Full-width text editor with white/light grey background
+- Full-width text editor with adaptive background (light/dark mode)
 - Real-time error detection with color-coded underlines (grammar: soft red, tone: muted indigo, improvement: soft green)
-- Floating suggestion cards appearing on click\n- Seamless mixing of Hindi and English text
-\n### 2.2 Mobile Keyboard Integration
+- Floating suggestion cards appearing on click with smooth animations
+- Seamless mixing of Hindi and English text
+
+### 2.2 Mobile Keyboard Integration
 - Native-looking keyboard interface for Android/iOS
-- Slim suggestion bar above keyboard\n- Floating bubble assistant (Android) with semi-transparent design
-\n### 2.3 Writing Dashboard
+- Slim suggestion bar above keyboard
+- Floating bubble assistant (Android) with semi-transparent design
+
+### 2.3 Writing Dashboard
 - Writing score and weekly progress tracking
 - Language usage statistics
 - Gamification system with badges (Shishu, Vidwan, Lekhak)
 - Achievement collection\n
 ### 2.4 Key Product Highlights
 - Supports Indian languages and Hinglish
-- Invisible, distraction-free interface
+- Premium interface with dark mode support
 - Professional-grade writing assistance
-- Real-time suggestions without interrupting flow
-\n## 3. Landing Page Structure
+- Real-time suggestions without interrupting flow\n
+## 3. Landing Page Structure
 
 ### 3.1 Hero Section
 - Bold headline emphasizing 'AI Writing Assistant for Indian Languages'
 - Subheadline explaining Grammarly-like functionality for Hinglish
-- Primary CTA button
-- Clean hero visual showing editor interface in action
+- Primary CTA button with glow effect
+- Animated hero visual showing editor interface with floating particles
 
 ### 3.2 Product Demo Section
-- Interactive or animated showcase of live writing editor
-- Visual demonstration of error highlighting system
-- Floating suggestion card example
-\n### 3.3 How It Works Section
+- Interactive animated showcase of live writing editor
+- Visual demonstration of error highlighting system with smooth transitions
+- Floating suggestion card example with entrance animations
+
+### 3.3 How It Works Section
 - Step 1: Write naturally in English, Hindi, or Hinglish
 - Step 2: Get instant suggestions with color-coded underlines
 - Step 3: Accept improvements with one click
 - Step 4: Track your writing progress
+- Each step reveals with scroll-triggered animations
 
 ### 3.4 Features Showcase
-- Live Writing Editor card with screenshot
+- Live Writing Editor card with screenshot and hover effects
 - Mobile Keyboard Integration card
 - Dashboard & Progress Tracking card
 - Multi-language Support highlight
+- Cards with gradient borders and subtle animations
 
 ### 3.5 Design Philosophy Section
 - Utility over beauty principle
-- Invisibility and speed focus
+- Premium experience focus
 - Professional maturity explanation
-\n### 3.6 Gamification Preview
-- Badge system visualization
+
+### 3.6 Gamification Preview
+- Badge system visualization with shimmer effects
 - Progress tracking examples
-- Achievement showcase
+- Achievement showcase with gold accents
 
 ### 3.7 CTA Section
 - Strong call-to-action for sign-up or download
 - Platform availability (Web, Android, iOS)
-\n### 3.8 Footer
-- Product links\n- Contact information
+- Animated background with gradient flow
+
+### 3.8 Footer
+- Product links
+- Contact information
 - Social media links
-\n## 4. Design Style\n
-### 4.1 Color Palette
-- Base colors: White, off-white, soft grey for backgrounds
-- Primary accent: Indigo (conveying trust and intelligence)
-- Secondary accent: Deep saffron (used sparingly for highlights only)
-- Functional colors: Soft red (errors), muted indigo (tone), soft green (improvements)
+
+## 4. Design Style
+\n### 4.1 Color Palette
+**Light Mode:**
+- Base: White to soft grey gradient backgrounds
+- Primary: Deep indigo to purple gradient
+- Accent: Gold (#D4AF37) for premium highlights
+- Functional: Soft red (errors), muted indigo (tone), soft green (improvements)
+\n**Dark Mode:**
+- Base: Rich dark grey (#0F0F0F) to deep charcoal (#1A1A1A) gradient
+- Primary: Vibrant indigo to electric blue gradient
+- Accent: Metallic gold (#FFD700) with subtle glow
+- Functional: Bright red (errors), neon indigo (tone), emerald green (improvements)
 
 ### 4.2 Typography System
-- Primary font: Inter for English text and UI elements
+- Primary font: Inter with variable weight for English text
 - Secondary font: Noto Sans for Indic scripts
-- Clear hierarchy with generous line spacing
-- Seamless bilingual text rendering
+- Gold gradient text for key headlines in dark mode
+- Smooth font weight transitions on hover
 
-### 4.3 Visual Elements
-- Minimal, clean interface with no decorative borders
-- Subtle shadows (very light) on floating elements only
-- Soft Indian cultural motifs (pen, script, paper) in dashboard section
-- No gradients in functional areas
-- No bright festival colors or cartoon illustrations
+### 4.3 Visual Effects
+- Mesh gradients on hero section and CTA areas
+- Glassmorphism cards with backdrop blur
+- Subtle particle animations in background
+- Gold shimmer effects on premium features
+- Smooth parallax scrolling\n- Glow effects on interactive elements
+- Animated gradient borders on feature cards
 
-### 4.4 Layout Principles
-- Generous white space and margins
-- Card-based layout for feature sections
-- Clean, organized information architecture
-- Professional, premium feel throughout
-- Mobile-responsive design
+### 4.4 Animation System
+- Fade-in and slide-up animations on scroll
+- Smooth hover transitions with scale and glow\n- Typing animation in demo section
+- Badge rotation and shine effects
+- Floating elements with subtle motion
+- Page transition animations
+- Micro-interactions on buttons and cards
 
-### 4.5 Interaction Design
-- Minimal animations (subtle, purposeful only)
-- No modals or popups during typing demonstrations
-- Smooth transitions between sections
-- Clear visual feedback on interactive elements
+### 4.5 Layout Principles\n- Generous spacing with breathing room
+- Card-based layout with gradient borders
+- Layered depth with shadows and blur
+- Mobile-responsive with adaptive animations
+- Premium feel with gold accents throughout
+\n### 4.6 Dark Mode Specifics
+- Deep dark backgrounds with subtle texture
+- Gold finish on borders, icons, and highlights
+- Enhanced contrast for readability
+- Neon-style functional colors
+- Glowing effects on interactive elements
+- Metallic sheen on premium features
 
-### 4.6 Brand Personality
-- Calm and reliable
-- Professional and mature
-- Indian-smart, not Indian-loud\n- Invisible yet powerful
--80% functional, 20% emotional
+### 4.7 Brand Personality
+- Premium and sophisticated
+- Modern and cutting-edge
+- Powerful yet elegant
+- Indian-smart with global appeal
+- Visually striking with purposeful animations

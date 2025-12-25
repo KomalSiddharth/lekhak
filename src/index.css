@@ -1,115 +1,132 @@
 /* stylelint-disable */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
-All colors MUST be HSL.
-*/
+/* Premium Design System with Gradients and Animations */
 
 @layer base {
   :root {
-    --radius: 0.5rem;
-    /* Base colors - White, off-white, soft grey */
+    --radius: 1rem;
+    
+    /* Light Mode - Premium White & Gold */
     --background: 0 0% 100%;
-    --foreground: 220 15% 20%;
+    --foreground: 240 10% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 20%;
+    --card-foreground: 240 10% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 20%;
+    --popover-foreground: 240 10% 10%;
     
-    /* Primary - Indigo (trust and intelligence) */
-    --primary: 238 60% 55%;
+    /* Primary - Rich Indigo with depth */
+    --primary: 245 58% 51%;
     --primary-foreground: 0 0% 100%;
+    --primary-glow: 245 100% 65%;
     
-    /* Secondary - Deep saffron (used sparingly for highlights) */
-    --secondary: 28 85% 55%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary - Vibrant Gold */
+    --secondary: 45 100% 51%;
+    --secondary-foreground: 240 10% 10%;
+    --gold: 45 100% 51%;
+    --gold-light: 48 100% 67%;
+    --gold-dark: 42 100% 45%;
     
-    /* Muted - Soft grey backgrounds */
-    --muted: 220 15% 96%;
-    --muted-foreground: 220 10% 45%;
+    /* Accent - Purple gradient */
+    --accent: 270 60% 60%;
+    --accent-foreground: 0 0% 100%;
     
-    /* Accent - Extremely light indigo */
-    --accent: 238 40% 95%;
-    --accent-foreground: 238 60% 35%;
+    /* Muted */
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
     
     /* Functional colors */
-    --error: 0 65% 65%;
+    --error: 0 72% 51%;
     --error-foreground: 0 0% 100%;
-    --tone: 238 45% 60%;
+    --tone: 245 58% 51%;
     --tone-foreground: 0 0% 100%;
-    --improvement: 142 55% 55%;
+    --improvement: 142 71% 45%;
     --improvement-foreground: 0 0% 100%;
     
-    /* Destructive */
-    --destructive: 0 65% 65%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
-    
-    /* Borders and inputs */
-    --border: 220 15% 88%;
-    --input: 220 15% 88%;
-    --ring: 238 60% 55%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 245 58% 51%;
     
     /* Chart colors */
-    --chart-1: 238 60% 55%;
-    --chart-2: 28 85% 55%;
-    --chart-3: 142 55% 55%;
-    --chart-4: 200 60% 55%;
-    --chart-5: 280 55% 60%;
+    --chart-1: 245 58% 51%;
+    --chart-2: 45 100% 51%;
+    --chart-3: 142 71% 45%;
+    --chart-4: 200 98% 39%;
+    --chart-5: 270 60% 60%;
     
     /* Sidebar */
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 220 15% 20%;
-    --sidebar-primary: 238 60% 55%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 240 10% 10%;
+    --sidebar-primary: 245 58% 51%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 238 40% 95%;
-    --sidebar-accent-foreground: 238 60% 35%;
-    --sidebar-border: 220 15% 88%;
-    --sidebar-ring: 238 60% 55%;
+    --sidebar-accent: 240 5% 96%;
+    --sidebar-accent-foreground: 240 10% 10%;
+    --sidebar-border: 240 6% 90%;
+    --sidebar-ring: 245 58% 51%;
   }
 
   .dark {
-    --background: 220 20% 10%;
-    --foreground: 0 0% 95%;
-    --card: 220 20% 12%;
-    --card-foreground: 0 0% 95%;
-    --popover: 220 20% 12%;
-    --popover-foreground: 0 0% 95%;
-    --primary: 238 60% 60%;
+    /* Dark Mode - Premium Dark with Gold accents */
+    --background: 240 10% 8%;
+    --foreground: 0 0% 98%;
+    --card: 240 8% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 8% 12%;
+    --popover-foreground: 0 0% 98%;
+    
+    /* Primary - Bright Indigo for dark mode */
+    --primary: 245 70% 60%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 28 85% 60%;
-    --secondary-foreground: 0 0% 100%;
-    --muted: 220 15% 18%;
-    --muted-foreground: 220 10% 60%;
-    --accent: 238 40% 15%;
-    --accent-foreground: 238 60% 75%;
-    --error: 0 65% 60%;
+    --primary-glow: 245 100% 70%;
+    
+    /* Secondary - Bright Gold */
+    --secondary: 45 100% 55%;
+    --secondary-foreground: 240 10% 10%;
+    --gold: 45 100% 55%;
+    --gold-light: 48 100% 70%;
+    --gold-dark: 42 100% 48%;
+    
+    /* Accent - Bright Purple */
+    --accent: 270 70% 65%;
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 240 8% 15%;
+    --muted-foreground: 240 5% 65%;
+    
+    /* Functional colors - brighter for dark mode */
+    --error: 0 72% 55%;
     --error-foreground: 0 0% 100%;
-    --tone: 238 45% 65%;
+    --tone: 245 70% 60%;
     --tone-foreground: 0 0% 100%;
-    --improvement: 142 55% 60%;
+    --improvement: 142 71% 50%;
     --improvement-foreground: 0 0% 100%;
-    --destructive: 0 65% 60%;
+    
+    --destructive: 0 72% 55%;
     --destructive-foreground: 0 0% 100%;
-    --border: 220 15% 22%;
-    --input: 220 15% 22%;
-    --ring: 238 60% 60%;
-    --chart-1: 238 60% 60%;
-    --chart-2: 28 85% 60%;
-    --chart-3: 142 55% 60%;
-    --chart-4: 200 60% 60%;
-    --chart-5: 280 55% 65%;
-    --sidebar-background: 220 20% 12%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 238 60% 60%;
+    --border: 240 8% 20%;
+    --input: 240 8% 20%;
+    --ring: 245 70% 60%;
+    
+    --chart-1: 245 70% 60%;
+    --chart-2: 45 100% 55%;
+    --chart-3: 142 71% 50%;
+    --chart-4: 200 98% 45%;
+    --chart-5: 270 70% 65%;
+    
+    --sidebar-background: 240 8% 12%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 245 70% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 238 40% 18%;
-    --sidebar-accent-foreground: 238 60% 75%;
-    --sidebar-border: 220 15% 22%;
-    --sidebar-ring: 238 60% 60%;
+    --sidebar-accent: 240 8% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 8% 20%;
+    --sidebar-ring: 245 70% 60%;
   }
 }
 
@@ -121,10 +138,101 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', 'Noto Sans', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
 @layer utilities {
+  /* Premium Gradient Backgrounds */
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
+  }
+  
+  .gradient-gold {
+    background: linear-gradient(135deg, hsl(var(--gold-dark)) 0%, hsl(var(--gold)) 50%, hsl(var(--gold-light)) 100%);
+  }
+  
+  .gradient-purple {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  }
+  
+  .gradient-mesh {
+    background: 
+      radial-gradient(at 0% 0%, hsla(245, 58%, 51%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(45, 100%, 51%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(270, 60%, 60%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(142, 71%, 45%, 0.15) 0px, transparent 50%);
+  }
+  
+  /* Gradient Text */
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--gold)) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  .gradient-text-gold {
+    background: linear-gradient(135deg, hsl(var(--gold-dark)) 0%, hsl(var(--gold-light)) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  /* Glass Morphism */
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .dark .glass {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Glow Effects */
+  .glow-primary {
+    box-shadow: 0 0 20px hsla(var(--primary), 0.5), 0 0 40px hsla(var(--primary), 0.3);
+  }
+  
+  .glow-gold {
+    box-shadow: 0 0 20px hsla(var(--gold), 0.5), 0 0 40px hsla(var(--gold), 0.3);
+  }
+  
+  .glow-hover {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-hover:hover {
+    box-shadow: 0 0 30px hsla(var(--primary), 0.6), 0 0 60px hsla(var(--primary), 0.4);
+  }
+  
+  /* Premium Animations */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out;
+  }
+  
+  /* Functional Colors */
   .text-error {
     color: hsl(var(--error));
   }
@@ -153,3 +261,53 @@ All colors MUST be HSL.
     border-color: hsl(var(--improvement));
   }
 }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px hsla(var(--primary), 0.4);
+  }
+  to {
+    box-shadow: 0 0 40px hsla(var(--primary), 0.8), 0 0 60px hsla(var(--gold), 0.4);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
