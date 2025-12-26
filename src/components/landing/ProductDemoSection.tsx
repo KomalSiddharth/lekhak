@@ -13,7 +13,7 @@ const ProductDemoSection: React.FC = () => {
             <span className="text-sm font-semibold gradient-text">Live Demo</span>
           </div>
           <h2 className="text-4xl xl:text-6xl font-black">
-            <span className="gradient-text">Action mein Dekhein</span>
+            <span className="gradient-text">Khud magic experience karein</span>
           </h2>
           <p className="text-lg xl:text-xl text-muted-foreground max-w-3xl mx-auto">
             LEKHAK kaise real-time suggestions ke saath aapki writing ko better banata hai

@@ -1,7 +1,6 @@
 import React from 'react';
 import DarkModeToggle from '@/components/common/DarkModeToggle';
 import CTASection from '@/components/landing/CTASection';
-import ExperienceMagicSection from '@/components/landing/ExperienceMagicSection';
 import FeaturesCardsSection from '@/components/landing/FeaturesCardsSection';
 import Footer from '@/components/landing/Footer';
 import GamificationSection from '@/components/landing/GamificationSection';
@@ -23,7 +22,6 @@ const HomePage: React.FC = () => {
       <MiniCTASection />
       <HowItWorksSection />
       <VideoSection />
-      <ExperienceMagicSection />
       <GamificationSection />
       <PricingSection />
       <TrustedBySection />
