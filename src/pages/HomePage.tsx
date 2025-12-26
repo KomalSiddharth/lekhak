@@ -1,14 +1,16 @@
 import React from 'react';
 import DarkModeToggle from '@/components/common/DarkModeToggle';
 import CTASection from '@/components/landing/CTASection';
-import DesignPhilosophySection from '@/components/landing/DesignPhilosophySection';
+import ExperienceMagicSection from '@/components/landing/ExperienceMagicSection';
 import FeaturesCardsSection from '@/components/landing/FeaturesCardsSection';
 import Footer from '@/components/landing/Footer';
 import GamificationSection from '@/components/landing/GamificationSection';
 import HeroSection from '@/components/landing/HeroSection';
 import HowItWorksSection from '@/components/landing/HowItWorksSection';
 import MiniCTASection from '@/components/landing/MiniCTASection';
+import PricingSection from '@/components/landing/PricingSection';
 import ProductDemoSection from '@/components/landing/ProductDemoSection';
+import TrustedBySection from '@/components/landing/TrustedBySection';
 import VideoSection from '@/components/landing/VideoSection';
 
 const HomePage: React.FC = () => {
@@ -21,8 +23,10 @@ const HomePage: React.FC = () => {
       <MiniCTASection />
       <HowItWorksSection />
       <VideoSection />
-      <DesignPhilosophySection />
+      <ExperienceMagicSection />
       <GamificationSection />
+      <PricingSection />
+      <TrustedBySection />
       <CTASection />
       <Footer />
     </div>
