@@ -12,6 +12,7 @@ const MiniCTASection: React.FC = () => {
           <Button
             size="lg"
             className="text-lg xl:text-xl px-12 xl:px-16 py-7 xl:py-8 gradient-primary text-white hover:scale-105 transition-transform duration-300 font-bold shadow-2xl glow-primary rounded-2xl"
+            onClick={() => window.location.href = '/editor'}
           >
             LEKHAK Free mein Try Karein
           </Button>
