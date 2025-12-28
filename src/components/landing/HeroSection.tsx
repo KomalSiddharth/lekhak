@@ -2,7 +2,10 @@ import { ArrowRight } from 'lucide-react';
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
+import { useNavigate } from 'react-router-dom';
+
 const HeroSection: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative w-full min-h-screen flex items-center py-20 xl:py-32 px-4 xl:px-8 overflow-hidden">
       {/* Premium Gradient Mesh Background */}
@@ -41,7 +44,7 @@ const HeroSection: React.FC = () => {
               <Button
                 size="lg"
                 className="text-base xl:text-lg px-8 xl:px-10 py-6 xl:py-7 gradient-primary glow-primary hover:scale-105 transition-transform duration-300 font-bold"
-                onClick={() => window.location.href = '/editor'}
+                onClick={() => navigate('/editor')}
               >
                 Free mein Start Karein
                 <ArrowRight className="ml-2 h-5 w-5" />
