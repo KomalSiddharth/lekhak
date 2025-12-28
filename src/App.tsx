@@ -5,24 +5,26 @@ import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-d
 // import { RouteGuard } from '@/components/common/RouteGuard';
 import { Toaster } from '@/components/ui/toaster';
 import routes from './routes';
+import DarkModeToggle from '@/components/common/DarkModeToggle';
 
 const App: React.FC = () => {
   return (
     <Router>
-      {/*<AuthProvider>*/}
-      {/*<RouteGuard>*/}
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen relative">
+        <div className="fixed top-6 right-6 z-[100]">
+          <DarkModeToggle />
+        </div>
         {/*<Header />*/}
         <main className="flex-grow">
           <Routes>
-          {routes.map((route, index) => (
-            <Route
-              key={index}
-              path={route.path}
-              element={route.element}
-            />
-          ))}
-          <Route path="*" element={<Navigate to="/" replace />} />
+            {routes.map((route, index) => (
+              <Route
+                key={index}
+                path={route.path}
+                element={route.element}
+              />
+            ))}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
       </div>

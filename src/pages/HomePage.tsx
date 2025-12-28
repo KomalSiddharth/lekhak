@@ -15,7 +15,6 @@ import VideoSection from '@/components/landing/VideoSection';
 const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-background relative">
-      <DarkModeToggle />
       <HeroSection />
       <ProductDemoSection />
       <FeaturesCardsSection />

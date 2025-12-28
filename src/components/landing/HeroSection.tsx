@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
     <section className="relative w-full min-h-screen flex items-center py-20 xl:py-32 px-4 xl:px-8 overflow-hidden">
       {/* Premium Gradient Mesh Background */}
       <div className="absolute inset-0 gradient-mesh opacity-60"></div>
-      
+
       {/* Animated Gradient Orbs */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/30 rounded-full blur-3xl animate-float"></div>
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-gold/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
@@ -31,29 +31,30 @@ const HeroSection: React.FC = () => {
               <span className="gradient-text block mb-2">Indian Languages</span>
               <span className="block">mein Confidently</span>
             </h1>
-            
+
             <p className="text-lg xl:text-2xl text-muted-foreground max-w-2xl mx-auto xl:mx-0 leading-relaxed">
-              English, Hindi, ya Hinglish - kisi bhi language mein likho aur intelligent suggestions pao. 
+              English, Hindi, ya Hinglish - kisi bhi language mein likho aur intelligent suggestions pao.
               <span className="gradient-text-gold font-semibold"> Grammarly jaisa, lekin India ke liye.</span>
             </p>
-            
+
             <div className="flex flex-col xl:flex-row gap-4 justify-center xl:justify-start">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="text-base xl:text-lg px-8 xl:px-10 py-6 xl:py-7 gradient-primary glow-primary hover:scale-105 transition-transform duration-300 font-bold"
+                onClick={() => window.location.href = '/editor'}
               >
                 Free mein Start Karein
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
+              <Button
+                size="lg"
+                variant="outline"
                 className="text-base xl:text-lg px-8 xl:px-10 py-6 xl:py-7 border-2 hover:bg-accent/10 hover:scale-105 transition-all duration-300 font-semibold"
               >
                 Demo Dekhein
               </Button>
             </div>
-            
+
             <div className="flex flex-wrap gap-6 xl:gap-8 justify-center xl:justify-start text-sm">
               <div className="flex items-center gap-2 glass px-4 py-2 rounded-full">
                 <span className="text-gold text-xl">✓</span>
@@ -75,7 +76,7 @@ const HeroSection: React.FC = () => {
             <div className="relative group">
               {/* Glow Effect */}
               <div className="absolute -inset-1 gradient-purple rounded-2xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
-              
+
               {/* Main Card */}
               <div className="relative bg-card border-2 border-border rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-500">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-gold/10"></div>
